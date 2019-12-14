@@ -1,5 +1,7 @@
 # Simple static blog
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/andrzejwp/jubilant-octo-doodle)
+
 ## Development
 
 Save your FLOTIQ_API_KEY and BASE_URL in `.env` file, e.g.:
