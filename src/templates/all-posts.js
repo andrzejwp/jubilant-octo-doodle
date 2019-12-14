@@ -12,7 +12,7 @@ export default ({ pageContext: { allPosts } }) => (
                     <Link to={`/post/${post.slug}/`}>
                         <p>{post.title}</p>
 		    {post.thumbnail[0].id &&
-                        <img src={`${process.env.GATSBY_BASE_URL}/image/250x250/${post.thumbnail[0].id}.${post.thumbnail[0].extension}`} alt="test"/>
+                        <img src={`${process.env.GATSBY_FLOTIQ_BASE_URL}/image/250x250/${post.thumbnail[0].id}.${post.thumbnail[0].extension}`} alt="test"/>
 			}
                     </Link>
                 </li>

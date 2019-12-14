@@ -2,11 +2,11 @@
 
 ## Development
 
-Save your AUTH_TOKEN and BASE_URL in `.env` file, e.g.:
+Save your FLOTIQ_API_KEY and BASE_URL in `.env` file, e.g.:
 
-```echo "AUTH_TOKEN=123123123123" > .env```
+```echo "FLOTIQ_API_KEY=123123123123" > .env```
 
-```echo "GATSBY_BASE_URL=https://api.flotiq.com" >> .env```
+```echo "GATSBY_FLOTIQ_BASE_URL=https://api.flotiq.com" >> .env```
 
 Install `gatsby` globally:
 
